@@ -670,7 +670,7 @@ h3 {
       } 
     .discoverInFooterContainer {
         max-width: 100%;
-        gap: 100%;
+        gap: 55px;
     } 
     .headerContainer {
         max-width: 100%;
