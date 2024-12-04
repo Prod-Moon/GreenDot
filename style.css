@@ -658,6 +658,40 @@ h3 {
     filter: brightness(75%);
 }
 
+@media all and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    img, video {
+        max-width: 100%; 
+        height: auto; 
+      } 
+      .headerContainer {
+        max-width: 100%;
+        gap: 185%;
+    }
+    .greenDotLaunched {
+        border: 2px solid var(--LIGHT-GREEN-COLOR);
+    }
+    .companyResourcesLegal {
+        display: flex;
+        gap: 70px;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .getlaunchedContainer {
+        border: none;
+    }
+    .discoverInFooter {
+        min-width: 775px;
+    }
+     .discoverInFooterContainer {
+       max-width: 100%;
+       display: block;
+    } 
+}
 @media all and (max-width: 576px) {
     body {
         display: flex;
@@ -668,9 +702,6 @@ h3 {
         max-width: 100%; 
         height: auto; 
       } 
-    .discoverInFooterContainer {
-        gap: 55px;
-    } 
     .headerContainer {
         max-width: 100%;
         gap: 175%;
