@@ -41,7 +41,6 @@ body {
    /*  position: sticky;
     top: 0;
     backdrop-filter: blur(18px); */
-
 }
 .logo {
     display: flex;
@@ -662,17 +661,22 @@ h3 {
     filter: brightness(75%);
 }
 
-@media all and (max-width: 576px) {
-    *, *::after, *::before {
-        border: 1px solid red;
-    }
+ @media all and (max-width: 576px) {
     body {
         display: flex;
         flex-wrap: wrap;
         max-width: 100%;
     }
     img, video {
-        max-width: 100%; /* Shrink to fit the container */
-        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; 
+        height: auto; 
       }
-}
+      .discoverInFooterContainer {
+        max-width: 100%;
+        gap: 100%;
+    }
+    .headerContainer {
+        max-width: 100%;
+        gap: 100%;
+    }
+} 
